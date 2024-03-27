@@ -69,7 +69,7 @@ public class DZ3 {
     private static String getOutputFilePath(String firstFilePath) {
         File firstFile = new File(firstFilePath);
         String parentDir = firstFile.getParent();
-        return parentDir + File.separator + "result.txt";
+        return parentDir + File.separator + "Склейка.txt";
     }
 
     private static void toUniteFiles(List<String> fileNames, String outputFilePath) throws IOException {
